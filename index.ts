@@ -3,3 +3,5 @@ class A extends null {
     console.log("a");
   }
 }
+
+console.log("b");
