@@ -6,3 +6,4 @@ class A extends null {
 
 console.log("b");
 console.log("a");
+console.log("a");
