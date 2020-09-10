@@ -18,5 +18,6 @@ module.exports = {
     "no-await-in-loop": "error",
     "no-control-regex": "error",
     eqeqeq: "error",
+    camelcase: "error",
   },
 };
