@@ -10,10 +10,13 @@ const bar = {
   b: "fuga",
 };
 
-//({ ...obj1.fo_o } = 2);
 ({ ...obj1.fo_o } = bar);
 
 console.log(obj1);
+
+o_bj.o_k.non_camelcase = 0;
+
+// -> { fo_o: { a: 'hoge', b: 'fuga' } }
 
 //
 //const camelCased = snake_cased;
