@@ -14,7 +14,7 @@ const bar = {
 
 console.log(obj1);
 
-o_bj.o_k.non_camelcase = 0;
+obj.o_k.non_camelcase = 0;
 
 // -> { fo_o: { a: 'hoge', b: 'fuga' } }
 
