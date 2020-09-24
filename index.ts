@@ -1,20 +1,11 @@
-const obj1 = {
-  fo_o: {
-    a: "a",
-    b: "b",
-  },
+const hoge = new (class {
+  constructor() {
+    console.log("42");
+  }
+})();
+const foo = class {
+  static get bar() {}
 };
-
-const bar = {
-  a: "hoge",
-  b: "fuga",
-};
-
-({ ...obj1.fo_o } = bar);
-
-console.log(obj1);
-
-obj.o_k.non_camelcase = 0;
 
 // -> { fo_o: { a: 'hoge', b: 'fuga' } }
 

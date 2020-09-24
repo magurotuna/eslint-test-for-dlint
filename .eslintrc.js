@@ -17,6 +17,8 @@ module.exports = {
   rules: {
     "no-await-in-loop": "error",
     "no-control-regex": "error",
+    "default-param-last": "error",
+    "getter-return": "error",
     eqeqeq: "error",
     camelcase: "error",
   },
