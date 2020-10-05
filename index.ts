@@ -1,5 +1,4 @@
-let returnType = 0;
-{
-  let predicate;
-  [, { foo: returnType, predicate }] = foo();
+let a;
+while ((a = 1)) {
+  foo();
 }
