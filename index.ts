@@ -1,4 +1,6 @@
-let a;
-while ((a = 1)) {
-  foo();
+function foo() {
+  do {
+    break;
+  } while (a);
+  return 1;
 }
